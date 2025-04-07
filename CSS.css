@@ -1,0 +1,55 @@
+.container {
+    background-color: orange;
+    height: 200px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container a:hover {
+    color: gainsboro;
+}
+ul {
+    list-style: none;
+    display: flex;
+ }
+
+.img {
+    height: 200px;
+    width: 250px;
+}
+
+.item {
+    margin: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    color: black;
+    width: 350px;
+    height: 500px;
+    align-items: center;
+}
+
+.item p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.index {
+    width: 60%;
+    height: 500px;
+    padding: 50px;
+}
+
+.H {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
